@@ -1,6 +1,6 @@
 from pyowm import OWM
 
-owm=OWM("3c90e695a941418f88b8178cf8a6ceab")
+# owm=OWM() Enter auth token
 
 def get_forecasts(lat,lon):
     observation=owm.three_hours_forecast_at_coords(lat,lon)

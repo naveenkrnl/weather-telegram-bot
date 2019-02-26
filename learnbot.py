@@ -1,8 +1,8 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler,Filters,CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from weather import get_forecasts
-
-updater =Updater(token='657956136:AAEP4BJrQtNAQzstUsZiyhMmLpD8RMnoQ2Y')
+# Enter token below
+updater =Updater(token='')
 
 # allows to register handler -> command, text, video, audio, etc.
 dispatcher=updater.dispatcher
